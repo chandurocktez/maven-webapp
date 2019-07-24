@@ -24,13 +24,11 @@
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://13.232.45.78:9000</sonar.host.url>
+	   <sonar.analysis.mode>preview</sonar.analysis.mode>
+           <sonar.issuesReport.html.enable>true</sonar.issuesReport.html.enable>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
-	  <properties>
-           <sonar.analysis.mode>preview</sonar.analysis.mode>
-           <sonar.issuesReport.html.enable>true</sonar.issuesReport.html.enable>
-        </properties>
 
 	<dependencies>
 
