@@ -85,19 +85,19 @@
 
 	</dependencies>
 	
-<!--	<distributionManagement>
+	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <url>http://13.233.4.223:8081/repository/Tez-releases/</url>
+	      <url>http://13.127.181.28:8081/repository/test-release/</url>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.4.223:8081/repository/Tez-snapshot/</url>
+	      <url>http://13.127.181.28:8081/repository/tested-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
-	<repositories>
+<!--	<repositories>
         <repository>
           <id>central</id>
           <url>http://13.233.4.223:8081/repository/Tez-group/</url>
