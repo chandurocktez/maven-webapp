@@ -23,9 +23,7 @@
 		<spring.version>5.0.2.RELEASE</spring.version>
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.232.45.78:9000</sonar.host.url>
-	   <sonar.analysis.mode>preview</sonar.analysis.mode>
-           <sonar.issuesReport.html.enable>true</sonar.issuesReport.html.enable>
+	<!--	<sonar.host.url>http://13.232.45.78:9000</sonar.host.url> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -87,7 +85,7 @@
 
 	</dependencies>
 	
-	<distributionManagement>
+<!--	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <url>http://13.233.4.223:8081/repository/Tez-releases/</url>
@@ -115,7 +113,7 @@
           <snapshots><enabled>true</enabled></snapshots>
         </pluginRepository>
       </pluginRepositories>
-
+-->
 	<!--
 	<repositories>
 		<repository>
