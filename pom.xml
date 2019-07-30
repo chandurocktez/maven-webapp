@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+	<modelVersion>4.0.0-SNAPSHOT</modelVersion>
 	
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
@@ -23,7 +23,7 @@
 		<spring.version>5.0.2.RELEASE</spring.version>
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.127.110.81:9000</sonar.host.url>
+		<sonar.host.url>http://13.234.78.187:9000</sonar.host.url>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -88,19 +88,19 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <url>http://13.127.181.28:8081/repository/test-release/</url>
+	      <url>http://13.233.87.135:8081/repository/test-release/</url>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.127.181.28:8081/repository/tested-snapshot/</url>
+	      <url>http://13.233.87.135:8081/repository/tested-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
-<!--	<repositories>
+<repositories>
         <repository>
           <id>central</id>
-          <url>http://13.233.4.223:8081/repository/Tez-group/</url>
+          <url>http://13.233.87.135:8081/repository/Tez-group/</url>
           <releases><enabled>true</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
         </repository>
@@ -108,12 +108,11 @@
      <pluginRepositories>
         <pluginRepository>
           <id>central</id>
-          <url>http://13.233.4.223:8081/repository/Tez-group/</url>
+          <url>http://13.233.87.135:8081/repository/Tez-group/</url>
           <releases><enabled>true</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
         </pluginRepository>
       </pluginRepositories>
--->
 	<!--
 	<repositories>
 		<repository>
