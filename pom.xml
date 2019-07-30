@@ -88,13 +88,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <url>http://13.233.87.135:8081/repository/test-release/</url>
+	      <url>http://13.233.87.135:8081/repository/Tez-releases/</url>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.87.135:8081/repository/tested-snapshot/</url>
+	      <url>http://13.233.87.135:8081/repository/Tez-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 <repositories>
